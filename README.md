@@ -1,5 +1,10 @@
 # Celtics Player Visual Identifier
 
+<p align="center">
+  <img src="figures/cover.png" width="800" height="450" alt="Celtics Identifier Capstone">
+</p>
+
+
 **By Connor Finnerty**
 
 ## Purpose
@@ -34,9 +39,11 @@ The image classifier performed quite well despite having very little raw data (6
 How YOLO cropped images
 
 ![KG Uncropped](figures/KGUncropped.png "KG Uncropped")
+
 Uncropped
 
 ![KG cropped by YOLO](figures/KGCropped.png "KG YOLO cropped")
+
 Cropped
 
 ---
@@ -54,9 +61,13 @@ Examples of StreamLit App performance
 
 Kevin Garnett (Boston Celtics)
 
+---
+
 ![Al Horford](figures/HorfordStreamLit.png "Al Horford")
 
 Al Horford (Boston Celtics)
+
+---
 
 ![Giannis](figures/GiannisStreamLit.png "Giannis")
 
@@ -64,15 +75,11 @@ Giannis Antetokounmpo
 
 ---
 
-![Kevin Durant](figures/GiannisStreamLit.png "Giannis")
+![Kevin Durant](figures/GiannisStreamLit.png "Kevin Durant")
 
 Kevin Durant (Seattle Supersonics, 2008)
 
-
-
-
-
-
+---
 
 A drawback to easyOCR was that, without training, the pre-trained model fails to distinguish 0s from the letter “O”, defaulting to considering both aforementioned instances to be detections of the letter “O”. Additionally, easyOCR can sometimes struggle with novel fonts, and has difficulty identifying numbers that are partially obstructed or obscured.
 
