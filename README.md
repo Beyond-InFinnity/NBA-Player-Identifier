@@ -1,7 +1,7 @@
 # Celtics Player Visual Identifier
 
 <p align="center">
-  <img src="figures/cover.png" width="800" height="450" alt="Celtics Identifier Capstone">
+  <img src="figures/Cover.png" width="800" height="450" alt="Celtics Identifier Capstone">
 </p>
 
 
