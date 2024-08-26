@@ -29,6 +29,30 @@ After this process was completed, I saved my model and tested it to confirm that
 
 The image classifier performed quite well despite having very little raw data (667 images) with which to train and learn. The player-team classifier performed well, with a train accuracy and train loss of 1.000 and 0.00038, and with a validation accuracy and validation loss of .9406 and .1504. In informal testing on novel images not included in the training/validation set, the model performance seemed to match these metrics, correctly classifying images from both classes with ~.95 precision and recall.
 
+![KG Uncropped](figures/KGUncropped.png "KG Uncropped")
+![KG cropped by YOLO](figures/KGCropped.png "KG YOLO cropped")
+Example of how YOLO cropped images
+
+![MobileNetv2 Classifier performance and metrics](figures/MobileNetv2Peformance.png "MobileNetv2 Classifier performance and metrics")
+MobileNetv2 Classifier performance and metrics
+
+
+Examples of StreamLit App performance
+![Kevin Garnett](figures/KGStreamLit.png "Kevin Garnett")
+Kevin Garnett (Boston Celtics)
+![Al Horford](figures/HorfordStreamLit.png "Al Horford")
+Al Horford (Boston Celtics)
+![Giannis](figures/GiannisStreamLit.png "Giannis")
+Giannis Antetokounmpo 
+![Kevin Durant](figures/GiannisStreamLit.png "Giannis")
+Kevin Durant (Seattle Supersonics, 2008)
+
+
+
+
+
+
+
 A drawback to easyOCR was that, without training, the pre-trained model fails to distinguish 0s from the letter “O”, defaulting to considering both aforementioned instances to be detections of the letter “O”. Additionally, easyOCR can sometimes struggle with novel fonts, and has difficulty identifying numbers that are partially obstructed or obscured.
 
 ## Conclusions
