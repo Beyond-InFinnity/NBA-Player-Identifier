@@ -75,7 +75,7 @@ Giannis Antetokounmpo
 
 ---
 
-![Kevin Durant](figures/GiannisStreamLit.png "Kevin Durant")
+![Kevin Durant](figures/KDStreamLit.png "Kevin Durant")
 
 Kevin Durant (Seattle Supersonics, 2008)
 
